@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Profile Picture Changer",
+  "version": "1.0",
+  "description": "Changes all profile pictures on the LinkedIn feed page.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/feed/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
