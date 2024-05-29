@@ -6,6 +6,11 @@
   "permissions": [
     "activeTab"
   ],
+  
+  "action": {
+    "default_popup": "popup.html"
+  },
+
   "content_scripts": [
     {
       "matches": ["https://www.linkedin.com/feed/*"],
