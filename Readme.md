@@ -16,7 +16,7 @@ Automatically updates profile pictures when new posts are added to the feed.
 ## Usage
 1. After installing the extension, click on the extension icon next to the address bar.
 2. In the popup window, paste the link to the image you want to use as the new profile picture.
-3. Click the "Go" button. The profile pictures on the LinkedIn feed page will be updated to the specified image.
+3. Click the "Upload" button. The profile pictures on the LinkedIn feed page will be updated to the specified image.
 
 ## Contributing
 * If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are welcome.
