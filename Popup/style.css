@@ -1,0 +1,62 @@
+html{
+    border-radius: 1rem;
+}
+body{
+    background-color: black;
+}
+
+.input_container{
+    padding:1rem;
+}
+
+.input_container>label{
+    font-size: 1rem;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.764);
+    display: block;
+    margin-bottom:1rem;
+    width: 240px;
+    color: white;
+    
+}
+
+.input_container>input{
+    padding: 0.5rem 0.25rem;
+    margin-left: 36px;
+    border-radius: 0.25rem;
+}
+
+.input_container > button {
+    padding: 0.5rem 1rem;
+    border: none;
+    display: block;
+    margin: 1rem auto;
+    background-color:white;
+    border-radius: 0.25rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    color: black;
+}
+
+.input_container > button:hover {
+    background-color: #cbcbcb;
+    color: black;
+    font-weight: bold;
+    transform: scale(1);
+}
+
+.input_container > button:active {
+    background-color: #DDDDDD;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
